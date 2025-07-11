@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    /* padding: 1px 8px 0px 6px; */
+    align-items: center;
+}
+.logo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+/* box2 */
+.nav-add{
+    display: block;
+    margin: 14px 2px 5px 0px;
+    padding: 0px 9px;
+}
+#deliver{
+    font-size: 0.7rem;
+    color: #cccccc;
+    padding-left: 15px;
+}
+
+.india{
+    display: flex;
+    flex: left;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 700px;
+    background-color: orange;
+    align-items: center;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    border: 2px solid black;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+#select{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    background-color: #e6e6e6;
+}
+
+.searchbox{
+    height: 38px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#icon{
+    width: 50px;
+   display: flex;
+   justify-content: center;
+  
+}  
+
+/* box4 */
+
+.language{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+}
+
+#lang{
+    width: 26px;
+}
+
+/* box5 */
+
+
+#upper{
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+
+#lower{
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 700;
+}
+
+/* box6 */
+
+
+/* box7 */
+
+.cart{
+    height: 47px;
+    width: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart i{
+    
+    font-size: 1.8rem;
+}
+
+.cart p{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    color: white;
+    align-items: center;
+}
+
+.menu{
+    height: 40px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.menu i{
+    font-size: 1.3rem;
+}
+.menu p{
+    padding: 10px;
+}
+
+
+.panellinks{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.panellinks a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* content1 */
+
+.content1{
+    height: 350px;
+    background-image: url("content_image.jpg");
+    background-size: cover;
+}
+/* .image{
+    width: 100%;
+
+} */
+
+.tippadi{
+    height: 40px;
+    width: 96.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f6;
+    position: absolute;
+    left: 20px;
+    bottom: 310px;
+}
+
+.tippadi a{
+    color: #2162a1;
+    text-decoration: none;
+}
+
+/* footer */
+
+.backtotop{
+    height: 50px;
+    background-color: rgba(36, 40, 64, 0.863);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtotop a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.foot-links{
+    height:350px;
+    background-color: #232f3e;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.foot-links ul{
+    font-size: 1rem;
+    padding: 5px;
+    
+    list-style-type: none;
+}
+
+.foot-links a{
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.foot-links li{
+    padding: 5px;
+}
+
+/* foot-logo */
+
+.foot-logo{
+    height: 70px;
+    width: 100%;
+    padding-top: 2px;
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo1{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 60px;
+    width: 140px;
+}
+
+.copyright{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.conditions li{
+    padding-right: 7px;
+}
+
+.conditions a{
+    text-decoration: none;
+    color: white;
+    padding:0px 10px 0px 10px;
+    
+}
+
+.affiliation{
+    display: flex;
+    justify-content: center;
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+
+/* content2 */
+
+.content2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #aac3ca;
+    
+}
+
+.box{
+    height: 400px;
+    width: 23.5%;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
+/* sign in */
+
+.signin{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+
+}
+
+.signincontent{
+    height: 170px;
+    width: 99%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.personalised p{
+    height: 36px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700 ;
+    padding: 10px;
+}
+
+.signincontent button{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(255, 204, 0);
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newcustomer{
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+
+}
+
+.newcustomer a{
+    
+    color: #2162a1;
+}
